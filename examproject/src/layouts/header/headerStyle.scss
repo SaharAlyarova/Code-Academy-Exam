@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEE2B3;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 25px;
+        li{
+list-style: none;
+
+        }
+    }
+}
+.footerimage{
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_footer.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.onesectionimage{
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_footer.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    column-gap :80px;
+}
+.sectionInput{
+    padding: 5px 65px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 45px;
+    color: black;
+}
+.sectionInputDate{
+    padding: 5px 100px;
+
+}
+.sectionBtn{
+    color:black;
+    background-color: #FEDFAA;
+    padding: 10px 60px;
+    border: 0;
+    // opacity: 0.5;
+}
+.sectionBtn:hover{
+    background-color: #FEE2B3;
+    
+}
+.fulldivsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+  row-gap: 30px;
+    flex-wrap:wrap;
+}
+.twoimagesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.controll{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+.container{
+    max-width: 1400px;
+    margin:0 auto
+}
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+    width:50px
+}
+.border-red{
+    border:2px solid red
+}
+.myInput{
+    padding:5px 67px;
+    border: 1px solid red;
+}
+.endsectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    column-gap: 15px;
+    padding: 40px;
+}
+.divparagicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+ 
+}
+.legalSolitions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: self-start;
+}
+// .paragh{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+// }
+a{
+    text-decoration:none;
+}
